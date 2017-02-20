@@ -1,0 +1,21 @@
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="jarodsjogren.com" resolutions="1x" timestamp="1487606512391">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="other.css" crc="3894054699" ref="other"/>
+    <file name="index.css" crc="395775465" ref="index"/>
+    <file name="resume.css" crc="480490718" ref="resume"/>
+    <file name="project.css" crc="76335486" ref="project"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:project:resume:other"/>
+    <file name="museutils.js" crc="4232573551" ref="index:project:resume:other"/>
+    <file name="whatinput.js" crc="86476730" ref="index:project:resume:other"/>
+    <file name="museconfig.js" crc="4152223963" ref="index:project:resume:other"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:project:resume:other"/>
+    <file name="require.js" crc="4234670167" ref="index:project:resume:other"/>
+  </folder>
+  <file name="index.html" crc="470275792" seo="true" mt="1487606427742" redirect="true"/>
+  <file name="project.html" crc="4282632754" seo="true" mt="1487606420794" redirect="true"/>
+  <file name="resume.html" crc="3808874828" seo="true" mt="1487606374097" redirect="true"/>
+  <file name="other.html" crc="3852569599" seo="true" mt="1487606383959" redirect="true"/>
+</manifest>
