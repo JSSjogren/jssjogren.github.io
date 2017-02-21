@@ -1,21 +1,69 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="jarodsjogren.com" resolutions="1x" timestamp="1487606512391">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="jarodsjogren.com" resolutions="1x" timestamp="1487646319279">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="other.css" crc="3894054699" ref="other"/>
-    <file name="index.css" crc="395775465" ref="index"/>
-    <file name="resume.css" crc="480490718" ref="resume"/>
-    <file name="project.css" crc="76335486" ref="project"/>
+    <file name="index.css" crc="13708625" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="resume.pdf" crc="4125325249" seo="true" mt="1453778154000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:project:resume:other"/>
-    <file name="museutils.js" crc="4232573551" ref="index:project:resume:other"/>
-    <file name="whatinput.js" crc="86476730" ref="index:project:resume:other"/>
-    <file name="museconfig.js" crc="4152223963" ref="index:project:resume:other"/>
-    <file name="jquery.watch.js" crc="3844535323" ref="index:project:resume:other"/>
-    <file name="require.js" crc="4234670167" ref="index:project:resume:other"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4232573551" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4152223963" ref="index"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="146279342" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="require.js" crc="4234670167" ref="index"/>
   </folder>
-  <file name="index.html" crc="470275792" seo="true" mt="1487606427742" redirect="true"/>
-  <file name="project.html" crc="4282632754" seo="true" mt="1487606420794" redirect="true"/>
-  <file name="resume.html" crc="3808874828" seo="true" mt="1487606374097" redirect="true"/>
-  <file name="other.html" crc="3852569599" seo="true" mt="1487606383959" redirect="true"/>
+  <folder name="images">
+    <file name="uga shield.png" crc="4160908293" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_2499.jpg" crc="4239998596" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4163.jpg" crc="3813097782" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_2616.jpg" crc="484489924" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4538.jpg" crc="114904862" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4871.jpg" crc="4060100111" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_1864.jpg" crc="421023071" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4246.jpg" crc="245681327" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="image1.jpg" crc="3790029580" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="image2.jpg" crc="4107787695" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted image 128x128.png" crc="501911864" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="twitter black.png" crc="275255245" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="instagram black.png" crc="417645990" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="facebook black.png" crc="3916850953" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="linkedin black.png" crc="3863113589" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="27388094" seo="true" mt="1487646304359" redirect="true"/>
 </manifest>

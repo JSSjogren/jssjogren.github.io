@@ -5,22 +5,55 @@
     <lastmod>2017-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/uga%20shield.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/img_2499.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/img_4163.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/img_2616.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/img_4538.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/img_4871.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/img_1864.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/img_4246.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/image1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/image2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/pasted%20image%20128x128.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/twitter%20black.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/instagram%20black.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/facebook%20black.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/linkedin%20black.png</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>http://jarodsjogren.com/project.html</loc>
-    <lastmod>2017-02-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://jarodsjogren.com/resume.html</loc>
-    <lastmod>2017-02-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://jarodsjogren.com/other.html</loc>
-    <lastmod>2017-02-20</lastmod>
+    <loc>http://jarodsjogren.com/assets/resume.pdf</loc>
+    <lastmod>2016-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
