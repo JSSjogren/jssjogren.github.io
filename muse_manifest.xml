@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="jarodsjogren.com" resolutions="1x" timestamp="1487646319279">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="jarodsjogren.com" resolutions="1x" timestamp="1487647307715">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="index.css" crc="13708625" ref="index"/>
@@ -65,5 +65,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="27388094" seo="true" mt="1487646304359" redirect="true"/>
+  <file name="index.html" crc="196866853" seo="true" mt="1487646304359" redirect="true"/>
 </manifest>
