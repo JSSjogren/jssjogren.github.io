@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="jarodsjogren.com" resolutions="1x" timestamp="1496384241637">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="jarodsjogren.com" resolutions="1x" timestamp="1496384460992">
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="62426684" ref="phone>index"/>
@@ -7,7 +7,7 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="350982466" ref="index"/>
+    <file name="index.css" crc="4140319824" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="resume---jarod-sjogren.pdf" crc="213572494" seo="true" mt="1494713283000"/>
@@ -72,5 +72,5 @@
     </file>
     <file name="social-1_round-facebook_poster_.png" crc="95740109" ref="index"/>
   </folder>
-  <file name="index.html" crc="59974204" seo="true" mt="1496384155897" redirect="true"/>
+  <file name="index.html" crc="3893189002" seo="true" mt="1496384431117" redirect="true"/>
 </manifest>
