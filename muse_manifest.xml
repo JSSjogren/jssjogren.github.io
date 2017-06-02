@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="jarodsjogren.com" resolutions="1x" timestamp="1487649691305">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="jarodsjogren.com" resolutions="1x" timestamp="1496384241637">
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="62426684" ref="phone>index"/>
@@ -7,10 +7,10 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="3937655230" ref="index"/>
+    <file name="index.css" crc="350982466" ref="index"/>
   </folder>
   <folder name="assets">
-    <file name="resume.pdf" crc="4125325249" seo="true" mt="1453778154000"/>
+    <file name="resume---jarod-sjogren.pdf" crc="213572494" seo="true" mt="1494713283000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:phone>index"/>
@@ -58,18 +58,19 @@
     <file name="pasted image 128x128.png" crc="501911864" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="twitter black.png" crc="275255245" seo="true" ref="index">
+    <file name="social-1_round-twitter.svg" crc="66248131" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="instagram black.png" crc="417645990" seo="true" ref="index">
+    <file name="social-1_round-twitter_poster_.png" crc="3780703228" ref="index"/>
+    <file name="social-1_round-instagram.svg" crc="4041911684" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="facebook black.png" crc="3916850953" seo="true" ref="index">
+    <file name="social-1_round-instagram_poster_.png" crc="4086588910" ref="index"/>
+    <file name="social-1_round-facebook.svg" crc="4139468098" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="linkedin black.png" crc="3863113589" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
+    <file name="social-1_round-facebook_poster_.png" crc="95740109" ref="index"/>
   </folder>
-  <file name="index.html" crc="442070829" seo="true" mt="1487649651140" redirect="true"/>
+  <file name="index.html" crc="59974204" seo="true" mt="1496384155897" redirect="true"/>
 </manifest>
