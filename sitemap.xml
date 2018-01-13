@@ -2,55 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://jarodsjogren.com/index.html</loc>
-    <lastmod>2017-06-02</lastmod>
+    <lastmod>2018-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://jarodsjogren.com/images/uga%20shield.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://jarodsjogren.com/images/img_2499.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://jarodsjogren.com/images/img_4163.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://jarodsjogren.com/images/img_2616.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://jarodsjogren.com/images/img_4538.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://jarodsjogren.com/images/img_4871.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://jarodsjogren.com/images/img_1864.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://jarodsjogren.com/images/img_4246.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://jarodsjogren.com/images/image1.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://jarodsjogren.com/images/image2.jpg</image:loc>
-    </image:image>
     <image:image>
       <image:loc>http://jarodsjogren.com/images/pasted%20image%20128x128.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://jarodsjogren.com/images/social-1_round-twitter.svg</image:loc>
+      <image:loc>http://jarodsjogren.com/images/s-icons_social-media-icons_white_color_transparent_background_256x256_0002_twitter.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://jarodsjogren.com/images/social-1_round-instagram.svg</image:loc>
+      <image:loc>http://jarodsjogren.com/images/s-icons_social-media-icons_white_color_transparent_background_256x256_0029_instagram.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://jarodsjogren.com/images/social-1_round-facebook.svg</image:loc>
+      <image:loc>http://jarodsjogren.com/images/s-icons_social-media-icons_white_color_transparent_background_256x256_0000_facebook.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://jarodsjogren.com/images/s-icons_social-media-icons_white_color_transparent_background_256x256_0026_linkedin.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://jarodsjogren.com/assets/resume---jarod-sjogren.pdf</loc>
-    <lastmod>2017-05-13</lastmod>
+    <loc>http://jarodsjogren.com/assets/resume.pdf</loc>
+    <lastmod>2018-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
