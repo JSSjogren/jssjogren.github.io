@@ -34,9 +34,9 @@ nav.shift tr td a:hover {
 nav.shift tr td a:after {
   display: block;
   position: absolute;
-  top: 0;
+  top: 20%;
   left: 0;
-  bottom: 0;
+  bottom: 20%;
   right: 0;
   margin: auto 0;
   width: 100%;
