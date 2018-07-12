@@ -12,17 +12,17 @@
 </head>
 
 
-<body background="Images/Background.jpg" bgproperties="fixed" style="background-repeat: no-repeat; background-attachment: fixed; background-size: cover">
-
-    <div class="centered bg-lite bg-lite rounded">
+<body background="Images/Background.jpg" bgproperties="fixed" style="background-repeat: no-repeat; background-attachment: fixed; background-size: cover; height: auto">
+   
+    <div class="centered bg-lite rounded">
        
         <nav class="shift">
             <table style="border-spacing: 0; border-collapse: collapse; margin: 0 auto">
                 <tr>
-                    <td><a href="#" >About Me</a></td>
-                    <td><a href="#">Education</a></td>
-                    <td><a href="#">Projects</a></td>
-                    <td><a href="#">Contact</a></td>
+                    <td class="active"><a href="#1" data-toggle="tab">About Me</a></td>
+                    <td><a href="#2" data-toggle="tab">Experience</a></td>
+                    <td><a href="#3" data-toggle="tab">Projects</a></td>
+                    <td><a href="#4" data-toggle="tab">Contact</a></td>
                 </tr>
             </table>
         </nav>
@@ -30,6 +30,74 @@
         <img src="Images/PhotoOfMe.png" style="height:25%; height: 25%; display: block; margin: auto">
     
         <h1 style="color: white; font-style: normal; font-family: 'Source Sans Pro', Arial, sans-serif; text-align: center">Jarod Sjogren</h1>
+        <br>
+        <br>
+        <div class="tab-content">
+           
+           
+            <!-- Tab content for "ABOUT ME" -->
+            <div id="1" class="tab-pane fade in active">
+                <p class="aboutMeText">
+                    I grew up loving technology and have not lost
+                    that passion. As far as hobbies go, I love reading, game programming, video games,
+                    watching TV, and hanging out with my girlfriend or friends.
+                </p>
+                <br>
+                <p class="aboutMeText">
+                    I am currently studying Computer Science at the University of Georgia,
+                    and plan to graduate Spring 2019.
+                </p>
+                <br>
+            </div>
+        
+           
+            <!-- Tab content for "EXPERIENCE" -->
+            <div id="2" class="tab-pane fade in">
+                <p class="experienceJob"><b>Enterprise Technology Intern at State Farm (May 2018 - July 2018)</b><br/></p>
+                <hr style="width:50%; margin-top: 5px; margin-bottom: 5px">
+                    <p class="experienceExplanation">
+                        Used Python, Bash Script, PHP, and other web-development languages<br/>
+                        to provide a stronger foundation for the data science division.
+                    </p> 
+<!--                </ul>-->
+                
+            </div>
+        
+           
+            <!-- Tab content for "PROJECTS" -->
+            <div id="3" class="tab-pane fade in">
+                <h4 style="color: white">Hello 3</h4>
+            </div>
+        
+           
+            <!-- Tab content for "CONTACT" -->
+            <div id="4" class="tab-pane fade in">
+                <table id="contact" style="margin: 0 auto">
+                <tr>
+                    <td style="padding: 10px">
+                        <a href="https://github.com/JSSjogren" target="_blank">
+                            <img onmouseover="this.src='Images/git-hover.png';" onmouseout="this.src='Images/git.png';" src="Images/git.png" style="width: 60px; height: 70px">
+                        </a>
+                    </td>
+                    <td style="padding: 10px">
+                        <a href="https://www.linkedin.com/in/jarodsjogren/" target="_blank">
+                            <img href="linkedin.com" onmouseover="this.src='Images/linkedin-hover.png';" onmouseout="this.src='Images/linkedin.png';" src="Images/linkedin.png" style="width: 60px; height: 70px">
+                        </a>
+                    </td>
+                    <td style="padding: 10px">
+                        <a href="https://www.instagram.com/jarodsjogren/" target="_blank">
+                            <img onmouseover="this.src='Images/instagram-hover.png';" onmouseout="this.src='Images/instagram.png';" src="Images/instagram.png" style="width: 60px; height: 70px">
+                        </a>
+                    </td>
+                    <td style="padding: 10px">
+                        <a href="https://www.facebook.com/jarod.sjogren" target="_blank">
+                            <img onmouseover="this.src='Images/facebook-hover.png';" onmouseout="this.src='Images/facebook.png';" src="Images/facebook.png" style="width: 60px; height: 70px">
+                        </a>
+                    </td>
+                <tr>
+                </table>
+            </div>
+        </div>
     </div>
 
 </body>
