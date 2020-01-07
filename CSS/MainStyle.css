@@ -7,6 +7,11 @@ body {
 	font-family:Century Gothic,Arial,sans-serif;
 }
 
+ul {
+    width: 70%;
+    margin: auto;
+}
+
 a {
 	text-decoration: none
 }
