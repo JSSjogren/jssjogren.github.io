@@ -1,8 +1,8 @@
-
 <!-- New Website for me :) -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +13,9 @@
     <title>Jarod Sjogren - Gameplay Programmer</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <!-- Custom styles for this template -->
     <link href="CSS/MainStyle.css" rel="stylesheet">
@@ -23,181 +25,203 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+</head>
 
 
-  <body>
-  <!--NavBar-->
-    <nav class="navbar navbar-inverse navbar-fixed-top TopBar">
-      <div class="container-fluid">
-	  <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Jarod Sjogren - Gameplay Programmer</a>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Jarod Sjogren - Gameplay Programmer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact me</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-	  </div>
     </nav>
-	
-	<!--PortfolioSection-->
-	<div class="SiteSection" id="home">
-		<div class="container">
-			<h1 class="SectionHeader">Portfolio</h1>	
-			<!--Student Projects-->
-			<div class="row">
-                <a href="StarsiegeDeadzone.html" class="col-xs-12 col-md-4 col-sm-6 ProjectSection ProjectSection-centered">
-					<div class ="ProjectHeader ImageGroup">
-						<img src="Images/Deadzone.jpg" class="img-responsive img-rounded ImageGroupImage" style="width: 500px" alt="Starsiege: Deadzone">
-						<h1 class="ImageGroupText"></h1>
-					</div>
-				</a>
-                <a href="StarsiegeRaiders.html" class="col-xs-12 col-md-4 col-sm-6 ProjectSection ProjectSection-centered">
-					<div class ="ProjectHeader ImageGroup">
-						<img src="Images/Raiders.jpg" class="img-responsive img-rounded ImageGroupImage" style="width: 500px" alt="Starsiege: Raiders">
-						<h1 class="ImageGroupText"></h1>
-					</div>
-				</a>
-                <a href="DraftGods.html" class="col-xs-12 col-md-4 col-sm-6 ProjectSection ProjectSection-centered">
-					<div class ="ProjectHeader ImageGroup">
-						<img src="Images/DraftGods.jpg" class="img-responsive img-rounded ImageGroupImage" style="width: 500px" alt="Draft Gods">
-						<h1 class="ImageGroupText"></h1>
-					</div>
-				</a>
-				<a href="TallGrass.html" class="col-xs-12 col-md-4 col-sm-6 ProjectSection ProjectSection-centered">
-					<div class ="ProjectHeader ImageGroup">
-						<img src="Images/ProjectTallGrass.png" class="img-responsive img-rounded ImageGroupImage" style="width: 500px" alt="Escape Room">
-						<h1 class="ImageGroupText">Project Tall Grass</h1>
-					</div>
-				</a>
-				<a href="Gaze.html" class="col-xs-12 col-md-4 col-sm-6 ProjectSection ProjectSection-centered">
-					<div class ="ProjectHeader ImageGroup">
-						<img src="Images/Gaze.JPG" class="img-responsive img-rounded ImageGroupImage" style="width: 500px" alt="Escape Room">
-						<h1 class="ImageGroupText">Project Gaze</h1>
-					</div>
-				</a>
-				<a href="DirectedStudy.html" class="col-xs-12 col-md-4 col-sm-6 ProjectSection ProjectSection-centered">
-					<div class ="ProjectHeader ImageGroup">
-						<img src="Images/EscapeRoom.JPG" class="img-responsive img-rounded ImageGroupImage" style="width: 500px" alt="Escape Room">
-						<h1 class="ImageGroupText">Directed Study - Escape Room</h1>
-					</div>
-				</a>
-			</div>
-			
-		</div>
-	</div>
-	<!--About-->
-	<div class="SiteSection" id="about">
-		<div class="container">
-			<h1 class="SectionHeader">About</h1>
-			<p class="lead col-md-8 col-md-offset-2 col-sm-12">
-				Hello, my name is Jarod Sjogren and I am currently a <b>Gameplay Programmer II at Prophecy Games</b>.
-				I graduated in May of 2019 with a B.S. in Computer Science from the University of Georgia.
-				<br><br>
-			</p>
-			
-		</div>
-		<div class="container">
-			<h1 class="SectionHeader">My Experience</h1>
-			<p class="lead col-md-8 col-md-offset-2 col-sm-12">
+
+
+    <br /><br />
+
+    <!-- PortfolioSection -->
+    <div class="SiteSection" id="home">
+        <br />
+        <div class="container">
+            <h1 class="SectionHeader">Portfolio</h1>
+            <!-- Projects -->
+            <div class="row row-cols-1 row-cols-md-3">
+                <a href="StarsiegeDeadzone.html" class="col-12 col-md-4 col-sm-6 ProjectSection ProjectSection-centered">
+                    <div class="ProjectHeader ImageGroup">
+                        <img src="Images/Deadzone.jpg" class="img-fluid rounded mx-auto d-block min-size-image" alt="Starsiege: Deadzone">
+                        <h1 class="ImageGroupText"></h1>
+                    </div>
+                </a>
+                <a href="StarsiegeRaiders.html" class="col-12 col-md-4 col-sm-6 ProjectSection ProjectSection-centered">
+                    <div class="ProjectHeader ImageGroup">
+                        <img src="Images/Raiders.jpg" class="img-fluid rounded mx-auto d-block min-size-image" alt="Starsiege: Raiders">
+                        <h1 class="ImageGroupText"></h1>
+                    </div>
+                </a>
+                <a href="DraftGods.html" class="col-12 col-md-4 col-sm-6 ProjectSection ProjectSection-centered">
+                    <div class="ProjectHeader ImageGroup">
+                        <img src="Images/DraftGods.jpg" class="img-fluid rounded mx-auto d-block min-size-image" alt="Draft Gods">
+                        <h1 class="ImageGroupText"></h1>
+                    </div>
+                </a>
+                <a href="TallGrass.html" class="col-12 col-md-4 col-sm-6 ProjectSection ProjectSection-centered">
+                    <div class="ProjectHeader ImageGroup">
+                        <img src="Images/ProjectTallGrass.png" class="img-fluid rounded mx-auto d-block min-size-image" alt="Escape Room">
+                        <h1 class="ImageGroupText">Project Tall Grass</h1>
+                    </div>
+                </a>
+                <a href="Gaze.html" class="col-12 col-md-4 col-sm-6 ProjectSection ProjectSection-centered">
+                    <div class="ProjectHeader ImageGroup">
+                        <img src="Images/Gaze.JPG" class="img-fluid rounded mx-auto d-block min-size-image" alt="Escape Room">
+                        <h1 class="ImageGroupText">Project Gaze</h1>
+                    </div>
+                </a>
+                <a href="DirectedStudy.html" class="col-12 col-md-4 col-sm-6 ProjectSection ProjectSection-centered">
+                    <div class="ProjectHeader ImageGroup">
+                        <img src="Images/EscapeRoom.JPG" class="img-fluid rounded mx-auto d-block min-size-image" alt="Escape Room">
+                        <h1 class="ImageGroupText">Directed Study - Escape Room</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!--About-->
+    <div class="SiteSection" id="about">
+        <br />
+        <div class="container">
+            <h1 class="SectionHeader">About</h1>
+            <div class="row row-cols-1">
+                <p class="col-md-8 col-md-offset-2 col-sm-12" style="margin: 0 auto;">
+                    Hello, my name is Jarod Sjogren and I am currently a <b>Gameplay Programmer II at Prophecy Games</b>.
+                    I graduated in May of 2019 with a B.S. in Computer Science from the University of Georgia.
+                    <br><br>
+                </p>
+            </div>
+
+        </div>
+        <div class="container">
+            <h1 class="SectionHeader">My Experience</h1>
+            <p class="col-md-8 col-md-offset-2 col-sm-12" style="margin: 0 auto;">
                 <b>Gameplay Programmer</b> and then <b>Gameplay Programmer II</b> working with <strong>Prophecy Games</strong>, a small studio in Alpharetta, GA. At Prophecy I have the opportunity to work on many of the core systems for the games we have produced while collaborating closely with the designers and artists. I have also worked as an interviewer and mentor for some of the newer gameplay programmers joining the company.<br><br>
-                
-				<b>Gameplay Programmer</b> with <strong>Project Tall Grass</strong>, an indie group creating an open world monster battling RPG. I was one of the lead developers and project founders, and I was one of the key decision makers when it came to the game's architecture and direction. Prior to starting at Prophecy Games, we were prototyping multiple alternatives for combat in the game. I have attached the two combat prototypes I developed above.<br><br>
-                
-				<b>Data Analyst</b> at <strong>State Farm Insurance</strong>, a Fortune 50 company, from May 2019 to July 2021. I served as the product owner and sole developer for my team's work intake site which was hosted on AWS. Alongside this, I spent my time serving as a solutions architect for business areas within State Farm during their transition from on-prem data sources to AWS.<br><br>
-			</p>
-		</div>
-	</div>
-	<!--Skills-->
-	<div class="SiteSection">
-		<div class="container">
-			<h1 class="SectionHeader">Skills</h1>	
-			<div class="col-xs-4 Listing">
-				<strong>Languages</strong>
-				<ul>
-					<li>C++</li>
-					<li>C#</li>
-					<li>Java</li>
-					<li>Python</li>
-				</ul>
-			</div>
-			<div class="col-xs-4 Listing">
-				<strong>Game Dev</strong>
-				<ul>
-					<li>Unreal Engine 4 & 5</li>
-                    <li>Perforce</li>
-					<li>Design</li>
-					<li>Gameplay</li>
-                    <li>Linear Algebra (3D Math)</li>
-				</ul>
-			</div>							
-			<div class="col-xs-4 Listing">
-				<strong>Other Skills/Strengths</strong>
-				<ul>
-                    <li>Robus Gameplay System Design</li>
-                    <li>Rapid Prototyping and Iteration</li>
-				    <li>Amazon Web Services</li>
-                    <li>Azure</li>
-					<li>Problem Solving</li>
-					<li>Collaboration</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+
+                <b>Gameplay Programmer</b> with <strong>Project Tall Grass</strong>, an indie group creating an open world monster battling RPG. I was one of the lead developers and project founders, and I was one of the key decision makers when it came to the game's architecture and direction. Prior to starting at Prophecy Games, we were prototyping multiple alternatives for combat in the game. I have attached the two combat prototypes I developed above.<br><br>
+
+                <b>Data Analyst</b> at <strong>State Farm Insurance</strong>, a Fortune 50 company, from May 2019 to July 2021. I served as the product owner and sole developer for my team's work intake site which was hosted on AWS. Alongside this, I spent my time serving as a solutions architect for business areas within State Farm during their transition from on-prem data sources to AWS.<br><br>
+            </p>
+        </div>
+    </div>
+    <!--Skills-->
+    <div class="SiteSection">
+        <div class="container">
+            <h1 class="SectionHeader">Skills</h1>
+            <div class="row row-cols-3">
+                <div class="col Listing">
+                    <strong>Languages</strong>
+                    <ul>
+                        <li>C++</li>
+                        <li>C#</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="col Listing">
+                    <strong>Game Dev</strong>
+                    <ul>
+                        <li>Unreal Engine 4 & 5</li>
+                        <li>Perforce</li>
+                        <li>Design</li>
+                        <li>Gameplay</li>
+                        <li>Linear Algebra (3D Math)</li>
+                    </ul>
+                </div>
+                <div class="col Listing">
+                    <strong>Other Skills/Strengths</strong>
+                    <ul>
+                        <li>Robus Gameplay System Design</li>
+                        <li>Rapid Prototyping and Iteration</li>
+                        <li>Amazon Web Services</li>
+                        <li>Azure</li>
+                        <li>Problem Solving</li>
+                        <li>Collaboration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="SiteSection" id="contact">
-		<div class="container">
-			<h1 class="SectionHeader">Resume</h1>
+        <div class="container">
+            <h1 class="SectionHeader">Resume</h1>
             <a type="button" class="btn btn-danger btn-lg" href="Assets/JarodSjogrenResume.pdf">Click here to download my resume!</a>
-		</div>
-	</div>
-	<!--ContactMeSection-->
-	<div class="SiteSection" id="contact">
-		<div class="container">
-			<h1 class="SectionHeader">Contact me</h1>
-			<p class="lead">For more information, please email me at <a href="contact@jarodsjogren.com">contact@jarodsjogren.com</a>.
-			</p>
-		</div>
-		<div class="container">
+        </div>
+    </div>
+    <!--ContactMeSection-->
+    <div class="SiteSection" id="contact">
+        <div class="container">
+            <h1 class="SectionHeader">Contact me</h1>
+            <p class="lead">For more information, please email me at <a href="contact@jarodsjogren.com">contact@jarodsjogren.com</a>.
+            </p>
+        </div>
+        <div class="container">
             <a href="https://www.linkedin.com/in/jarodsjogren/"><img src="Images/LinkedIn.svg" style="width: 30px; height: 30px;"></a>
             <a href="https://github.com/JSSjogren"><img src="Images/GitHub.svg" style="width: 32px; height: 32px;"></a>
             <!--<a href="https://www.facebook.com/jarod.sjogren"><img src="Images/Facebook.svg" style="width: 30px; height: 30px;"></a>-->
             <!--<a href="https://www.instagram.com/jarodsjogren/"><img src="Images/Instagram.svg" style="width: 30px; height: 30px;"></a>-->
-		</div>
-	</div>
-	<br><br><br><br><br>
-	
-	
+        </div>
+    </div>
+    <br><br><br><br><br>
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="Bootstrap/js/bootstrap.min.js"></script>
-	<script src="Bootstrap/js/smoothScroll.js"></script>
+    <script src="Bootstrap/js/smoothScroll.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="Bootstrap/js/ie10-viewport-bug-workaround.js"></script>
-	
-	<!--Tracking google analytics-->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-63214189-1', 'auto');
-	  ga('send', 'pageview');
+    <!--Tracking google analytics-->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-	</script>
-  </body>
+        ga('create', 'UA-63214189-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+
 </html>
-
